@@ -1,0 +1,32 @@
+{
+  "name": "jev",
+  "version": "1.0.0",
+  "description": "Jev in ~25 lines of JavaScript, for LM Studio: a prompt with choices in, calibrated probabilities out.",
+  "keywords": [
+    "classification",
+    "jev",
+    "llm",
+    "lmstudio",
+    "logprobs"
+  ],
+  "license": "ISC",
+  "author": "",
+  "bin": {
+    "jev": "./index.js"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "oxlint",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
